@@ -365,6 +365,10 @@ header section .social .icons a:hover{
   header{
     width: 95%;
   }
+  header .logo img{
+    width: 200px;
+    margin: 40px 0px 0px -30px;
+  }
 }
 @media screen and (max-width: 775px) {
   header .logo{
