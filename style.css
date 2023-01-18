@@ -425,11 +425,14 @@ header section .social .icons a:hover{
     left: 11%;
     top: 38%;
   }
+  header section .content h1{
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 418px) {
   header section .content h1 {
-    font-size: 32px;
+    font-size: 25px;
     transition: 1s linear;
   }
   header section .content p {
@@ -462,6 +465,6 @@ header section .social .icons a:hover{
     top: 35%;
   }
   header section .social {
-    top: 39%;
+    top: 35%;
   }
 }
