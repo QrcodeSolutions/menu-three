@@ -186,14 +186,15 @@ header section .content{
 }
 
 header section .content h1{
-  font-size: 40px;
+  font-size: 30px;
+  
   transition: 1s linear;
 }
 
 header section .content p{
   font-size: 10px;
   font-weight: 600;
-  width: 290px;
+  width: 200px;
   word-break: break-all;
 }
 
@@ -478,7 +479,7 @@ header section .social .icons a:hover{
   }
   header .logo img{
     width: 160px;
-    margin: 0px 0px 0px 75px;
+    margin: 0px 0px 0px 0px;
   }
   header section .content {
     left: 9%;
@@ -495,20 +496,20 @@ header section .social .icons a:hover{
 @media screen and (max-width: 390px), (max-height: 844px) {
   header .logo{
     width: 155px;
-    height: 175px;
+    height: 100px;
   }
   header .logo img{
     width: 160px;
-    margin: 0px 0px 0px 75px;
+    margin: -30px 0px 0px 135px;
   }
   header section .content {
-    left: 9%;
-    top: 22%;
+    left: 0%;
+    top: 18%;
     
   }
   header section .cards{
     top: 24%;
-    height: 120px;
+    height: 130px;
   }
   header section .cards .card{
     min-width: 100px;
