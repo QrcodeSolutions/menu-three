@@ -219,7 +219,7 @@ header section .content .price-order a{
   background: #121213;
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 10px;
   margin-left: 35px;
 }
 
@@ -263,8 +263,8 @@ header section .cards .card .dis{
 }
 
 header section .cards .card .steam{
-  width: 60px;
-  height: 80px;
+  width: 50px;
+  height: 70px;
   position: absolute;
   top: -35px;
   left: -5px;
@@ -486,6 +486,33 @@ header section .social .icons a:hover{
   }
   header section .cards{
     top: 27%;
+
+  }
+  header section .social {
+    top: 25%;
+  }
+}
+@media screen and (max-width: 390px), (max-height: 844px) {
+  header .logo{
+    width: 155px;
+    height: 175px;
+  }
+  header .logo img{
+    width: 160px;
+    margin: 0px 0px 0px 75px;
+  }
+  header section .content {
+    left: 9%;
+    top: 22%;
+    
+  }
+  header section .cards{
+    top: 24%;
+    height: 120px;
+  }
+  header section .cards .card{
+    min-width: 100px;
+    min-height: 80px;
   }
   header section .social {
     top: 25%;
