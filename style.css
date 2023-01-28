@@ -420,6 +420,8 @@ header section .social .icons a:hover{
 @media screen and (max-width: 500px) {
   header .logo {
     left: 20%;
+    height: 275px;
+
   }
   header section .content {
     left: 11%;
@@ -466,5 +468,26 @@ header section .social .icons a:hover{
   }
   header section .social {
     top: 35%;
+  }
+}
+
+@media screen and (max-width: 670px), (max-height: 375px) {
+  header .logo{
+    width: 155px;
+    height: 175px;
+  }
+  header .logo img{
+    width: 160px;
+    margin: 0px 0px 0px 75px;
+  }
+  header section .content {
+    left: 9%;
+    top: 28%;
+  }
+  header section .cards{
+    top: 27%;
+  }
+  header section .social {
+    top: 25%;
   }
 }
